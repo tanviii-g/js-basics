@@ -45,13 +45,14 @@ const max = 20;
 // console.log(Math.random() * (max - min + 1))
 
 // 3. but our question is we want value between  10 to 20
- console.log(Math.floor(Math.random() * (max - min + 1)) + min) 
+ console.log(Math.floor(Math.random() * (max - min + 1)) + min)    // imp****
  /* here we add min at last bcz normal formula gives value between 1 to 10
   but we want value between 10 to 20 
  let suppose random() gives value 2 , but we want more than 2 
  so it will add like 2+10.... 10 is our minimum value..
- it gives 12 */
- 
+ it gives 12 value    */
+
+
  
 
 
