@@ -32,15 +32,27 @@ const min= 10;
 const max = 20;
 
 //1. normally we used random method
-Math.random()
+// Math.random()
 // it gives random number like this  2.2888668931747005
 
 //2.  i want single digit like 2 or 3 
 
-console.log(Math.round(2.9))
+// console.log(Math.round(2.9))
 // it gives round off value 3 
 
+
+// we want to avoid zero so the formula become
+// console.log(Math.random() * (max - min + 1))
+
 // 3. but our question is we want value between  10 to 20
+ console.log(Math.floor(Math.random() * (max - min + 1)) + min) 
+ /* here we add min at last bcz normal formula gives value between 1 to 10
+  but we want value between 10 to 20 
+ let suppose random() gives value 2 , but we want more than 2 
+ so it will add like 2+10.... 10 is our minimum value..
+ it gives 12 */
+ 
+ 
 
 
 
