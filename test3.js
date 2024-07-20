@@ -50,7 +50,7 @@ const max = 20;
   but we want value between 10 to 20 
  let suppose random() gives value 2 , but we want more than 2 
  so it will add like 2+10.... 10 is our minimum value..
- it gives 12 value    */
+ it gives 12 value   */
 
 
  
