@@ -65,9 +65,35 @@ const users= [
 // users[1].email
 // console.log(users);
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
 
+// object destructure
+const course= {
+    coursname : "js in hindi",
+    price: 999,
+    courseInstructor : "Swami"
+}
+
+// console.log(course.coursname); // this is basic 
+// output : js in hindi
+
+const {coursname} = course // curly brace is used here for destructuring
+console.log(coursname);
+// output: js in hindi
+
+// how json looks like
+// usually it is Object but sometimes it is array
+// {
+//     "name":"Radha",
+//     "age" : 4
+// } // this is json format ... u notice one thing... object has name but json has not it contains only braces
+
+// json in array like format
+[
+    {},
+    {},
+]
