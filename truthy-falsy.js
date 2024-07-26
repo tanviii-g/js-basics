@@ -54,4 +54,24 @@ if(userEmail){
 
  }
 
- // in the above code we first give Object to keys(emptyObj)... it gives array and  then we know that  how to check array is empty.,  .length === 0 ; so by using this way we check object is empty or not
+ // in the above code we first give Object to keys(emptyObj)... it gives array and  then we know that how to check array is empty.,  .length === 0 ; so by using this way we check object is empty or not
+
+
+ // nullish coalescing operator (??) null undefined
+
+ let val1;
+//  val1= 5 ?? 10     // output: 5
+//  val1 = null ?? 10  //  output: 10
+//  val1 = undefined ?? 15  // output: 15
+ val1 = null ?? 10 ?? 15
+
+
+ console.log(val1);
+
+
+ // Ternary operators
+
+ // condition ? true:false
+
+ const iceCream = 100
+ iceCream <= 80 ? console.log("less than 80"): console.log("more than 80");;
